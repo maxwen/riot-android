@@ -55,6 +55,10 @@
     <!-- libjingle is designed for API >= 15 but the app should work from API >= 11 -->
     <uses-sdk tools:overrideLibrary="io.pristine.libjingle"/>
 
+    <!-- jitsi -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+
     <application
         tools:replace="allowBackup,label"
         android:allowBackup="false"
@@ -116,6 +120,18 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:label="@string/title_activity_room"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name="im.vector.activity.JitsiActivity"
+            android:label="@string/room_creation_title"
+            android:parentActivityName="im.vector.activity.VectorHomeActivity"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="im.vector.activity.VectorRoomActivity"/>
+        </activity>
 
         <activity
             android:name="im.vector.activity.VectorRoomCreationActivity"

@@ -100,7 +100,7 @@ import im.vector.services.EventStreamService;
 import im.vector.util.PreferencesManager;
 import im.vector.util.ThemeUtils;
 import im.vector.util.VectorUtils;
-import me.leolin.shortcutbadger.ShortcutBadger;
+//import me.leolin.shortcutbadger.ShortcutBadger;
 
 /**
  * Contains useful functions which are called in multiple activities.
@@ -362,7 +362,7 @@ public class CommonActivityUtils {
         stopEventStream(context);
 
         try {
-            ShortcutBadger.setBadge(context, 0);
+          //  ShortcutBadger.setBadge(context, 0);
         } catch (Exception e) {
             Log.d(LOG_TAG, "## logout(): Exception Msg=" + e.getMessage());
         }
@@ -1744,7 +1744,7 @@ public class CommonActivityUtils {
     public static void updateBadgeCount(Context context, int badgeValue) {
         try {
             mBadgeValue = badgeValue;
-            ShortcutBadger.setBadge(context, badgeValue);
+            // ShortcutBadger.setBadge(context, badgeValue);
         } catch (Exception e) {
             Log.e(LOG_TAG, "## updateBadgeCount(): Exception Msg=" + e.getMessage());
         }

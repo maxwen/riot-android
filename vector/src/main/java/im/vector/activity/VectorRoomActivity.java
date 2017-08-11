@@ -1638,19 +1638,8 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
      * Send the editText text.
      */
     private void sendTextMessage() {
-        VectorApp.markdownToHtml(mEditText.getText().toString().trim(), new VectorMarkdownParser.IVectorMarkdownParserListener() {
-            @Override
-            public void onMarkdownParsed(final String text, final String HTMLText) {
-                VectorRoomActivity.this.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        enableActionBarHeader(HIDE_ACTION_BAR_HEADER);
-                        sendMessage(text, TextUtils.equals(text, HTMLText) ? null : HTMLText, Message.FORMAT_MATRIX_HTML);
-                        mEditText.setText("");
-                    }
-                });
-            }
-        });
+        final Intent intent = new Intent(VectorRoomActivity.this, JitsiActivity.class);
+        VectorRoomActivity.this.startActivity(intent);
     }
 
     /**
