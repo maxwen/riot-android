@@ -853,7 +853,7 @@ public class VectorSettingsPreferencesFragment extends PreferenceFragment implem
         addEmailPreference.setTitle(R.string.settings_add_email_address);
         addEmailPreference.setDialogTitle(R.string.settings_add_email_address);
         addEmailPreference.setKey(ADD_EMAIL_PREFERENCE_KEY);
-        addEmailPreference.setIcon(R.drawable.ic_add_black);
+        addEmailPreference.setIcon(R.drawable.ic_add_text_color);
         addEmailPreference.setOrder(100);
         addEmailPreference.getEditText().setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
 
@@ -879,7 +879,7 @@ public class VectorSettingsPreferencesFragment extends PreferenceFragment implem
         // display the "add phone number" entry
         Preference addPhoneNumberPreference = new Preference(getActivity());
         addPhoneNumberPreference.setKey(ADD_PHONE_NUMBER_PREFERENCE_KEY);
-        addPhoneNumberPreference.setIcon(R.drawable.ic_add_black);
+        addPhoneNumberPreference.setIcon(R.drawable.ic_add_text_color);
         addPhoneNumberPreference.setTitle(R.string.settings_add_phone_number);
         addPhoneNumberPreference.setOrder(200);
 

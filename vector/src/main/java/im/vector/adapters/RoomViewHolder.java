@@ -86,7 +86,7 @@ public class RoomViewHolder extends RecyclerView.ViewHolder {
     int mFuchsiaColor;
     @BindColor(R.color.vector_green_color)
     int mGreenColor;
-    @BindColor(R.color.vector_silver_color)
+    @BindColor(R.color.unread_indicator_color)
     int mSilverColor;
 
     public RoomViewHolder(final View itemView) {

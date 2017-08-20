@@ -4,7 +4,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFFFF"
+    android:background="@color/drawer_background_color"
     android:fitsSystemWindows="true">
 
     <RelativeLayout
@@ -91,8 +91,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="@android:color/white"
-            app:itemBackground="@android:color/white"
+            android:background="@color/bottom_navigation_background"
+            app:itemBackground="@color/bottom_navigation_background"
             app:itemIconTint="@color/home_bottom_nav_view_tint"
             app:itemTextColor="@color/home_bottom_nav_view_tint"
             app:menu="@menu/bottom_navigation_main" />
@@ -103,10 +103,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#FFF"
+        android:background="@color/drawer_background_color"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/vector_home_menu_header"
-        app:itemIconTint="@color/vector_4d_gray"
+        app:itemIconTint="@color/drawer_icon_color"
         app:menu="@menu/vector_home_sliding_menu"
         app:theme="@style/NavigationViewStyle" />
 

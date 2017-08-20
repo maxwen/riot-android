@@ -3,7 +3,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="280dp"
     android:layout_height="wrap_content"
-    android:background="@android:color/white">
+    android:padding="24dp"
+    android:background="@color/vector_activity_background_color">
 
     <RelativeLayout
         android:id="@+id/incoming_call_avatar_container"
@@ -33,7 +34,7 @@
         android:gravity="center_horizontal"
         android:singleLine="true"
         android:text="Room name"
-        android:textColor="@android:color/black"
+        android:textColor="@color/vector_text_black_color"
         android:textSize="20sp" />
 
     <TextView

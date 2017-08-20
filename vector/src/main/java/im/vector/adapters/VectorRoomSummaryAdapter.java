@@ -664,7 +664,7 @@ public class VectorRoomSummaryAdapter extends BaseExpandableListAdapter {
         int fushiaColor = mContext.getResources().getColor(R.color.vector_fuchsia_color);
         int vectorDefaultTimeStampColor = mContext.getResources().getColor(R.color.vector_0_54_black_color);
         int vectorGreenColor = mContext.getResources().getColor(R.color.vector_green_color);
-        int vectorSilverColor = mContext.getResources().getColor(R.color.vector_silver_color);
+        int vectorSilverColor = mContext.getResources().getColor(R.color.unread_indicator_color);
 
         // retrieve the UI items
         ImageView avatarImageView = (ImageView)convertView.findViewById(R.id.room_avatar_image_view);

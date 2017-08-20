@@ -131,7 +131,7 @@
         android:id="@+id/jump_to_first_unread"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
+        android:background="@color/filter_background"
         android:visibility="gone"
         tools:visibility="visible"
         android:layout_below="@+id/room_preview_info_layout"
@@ -167,7 +167,7 @@
             android:layout_alignTop="@+id/jump_to_first_unread_label"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/vector_leave_room_black" />
+            android:src="@drawable/vector_leave_room_text_color" />
 
         <ProgressBar
             android:id="@+id/jump_to_read_spinner"

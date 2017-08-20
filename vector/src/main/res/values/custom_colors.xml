@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_room_background">#FFFFFFFF</color>
+    <color name="custom_vector_activity_background_color">#FFF</color>
+    <color name="custom_vector_light_gray_color">#FFF2F2F2</color>
+    <color name="custom_vector_text_black_color">#FF3C3C3C</color>
+    <color name="custom_vector_0_54_black_color">#8E000000</color>
+    <color name="custom_vector_0_87_black_color">#DC000000</color>
+    <color name="custom_vector_line_separator_gray_color">#339D9D9D</color>
+    <color name="custom_vector_recents_header_background_color">#77F2F2F2</color>
+    <color name="custom_vector_tabbar_background_color">#FFF2F2F2</color>
+    <color name="custom_vector_search_hint_color">#333C3C3C</color>
+    <color name="custom_vector_text_gray_color">#FF9D9D9D</color>
+    <color name="custom_vector_dc_gray">#FFDCDCDC</color>
+    <color name="custom_vector_21_black">#FF212121</color>
+    <color name="custom_vector_80_gray">#FF808080</color>
+    <color name="custom_vector_05_gray">#FFF2F2F2</color>
+    <color name="custom_list_header_background">#f6f6f6</color>
+    <color name="custom_list_header_spinner_text">#7f3c3c3c</color>
+    <color name="custom_list_header_spinner">#2e3c3c3c</color>
+    <color name="drawer_background_color">#ffffff</color>
+    <color name="drawer_icon_color">#FF4D4D4D</color>
+    <color name="bottom_navigation_background">#ffffff</color>
+    <color name="filter_background">#ffffff</color>
+    <color name="list_header_secondary_text_color">#4d3C3C3C</color>
+    <color name="message_encryting">#dc000000</color>
+    <color name="message_normal">#000000</color>
+    <color name="message_sending">#8e000000</color>
+    <color name="unread_indicator_color">@color/direct_chat_indicator</color>
+
+    <!--<color name="background_light">@color/material_grey_800</color>
+    <color name="background_dark">@color/material_grey_900</color>
+
+    <color name="custom_room_background">@color/background_dark</color>
+    <color name="default_room_background">#FFFFFFFF</color>
+
+    <color name="custom_vector_activity_background_color">@color/background_dark</color>
+    <color name="default_vector_activity_background_color">#FFF</color>
+
+    <color name="custom_vector_light_gray_color">@color/background_light</color>
+    <color name="default_vector_light_gray_color">#FFF2F2F2</color>
+
+    <color name="custom_vector_text_black_color">#ffffff</color>
+    <color name="default_vector_text_black_color">#FF3C3C3C</color>
+
+    <color name="custom_vector_0_54_black_color">@color/vector_text_black_color</color>
+    <color name="custom_vector_0_87_black_color">@color/vector_text_black_color</color>
+    <color name="custom_vector_line_separator_gray_color">@color/background_light</color>
+    <color name="custom_vector_recents_header_background_color">@color/background_light</color>
+    <color name="custom_vector_tabbar_background_color">@color/background_light</color>
+    <color name="custom_vector_search_hint_color">#8Effffff</color>
+
+    <color name="default_vector_0_54_black_color">#8E000000</color>
+    <color name="default_vector_0_87_black_color">#DC000000</color>
+    <color name="default_vector_line_separator_gray_color">#339D9D9D</color>
+    <color name="default_vector_recents_header_background_color">#77F2F2F2</color>
+    <color name="default_vector_tabbar_background_color">#FFF2F2F2</color>
+    <color name="default_vector_search_hint_color">#333C3C3C</color>
+
+    <color name="custom_vector_text_gray_color">#A0ffffff</color>
+    <color name="default_vector_text_gray_color">#FF9D9D9D</color>
+
+    <color name="custom_vector_dc_gray">@color/background_light</color>
+    <color name="default_vector_dc_gray">#FFDCDCDC</color>
+
+    <color name="custom_vector_21_black">#ffffff</color>
+    <color name="custom_vector_80_gray">#FF808080</color>
+    <color name="custom_vector_05_gray">@color/background_light</color>
+
+    <color name="default_vector_21_black">#FF212121</color>
+    <color name="default_vector_80_gray">#FF808080</color>
+    <color name="default_vector_05_gray">#FFF2F2F2</color>
+
+    <color name="custom_list_header_background">@color/background_light</color>
+    <color name="custom_list_header_spinner_text">#ffffff</color>
+    <color name="custom_list_header_spinner">#A0ffffff</color>
+
+    <color name="default_list_header_background">#f6f6f6</color>
+    <color name="default_list_header_spinner_text">#7f3c3c3c</color>
+    <color name="default_list_header_spinner">#2e3c3c3c</color>
+
+    <color name="drawer_background_color">@color/background_dark</color>
+    <color name="drawer_icon_color">#ffffff</color>
+    <color name="bottom_navigation_background">@color/background_light</color>
+    <color name="message_encryting">#dcffffff</color>
+    <color name="message_highlighted">#00f</color>
+    <color name="message_normal">#ffffff</color>
+    <color name="message_not_sent">#f00</color>
+    <color name="message_sending">#8effffff</color>
+    <color name="filter_background">@color/background_light</color>
+    <color name="unread_indicator_color">@color/direct_chat_indicator</color>
+    <color name="list_header_secondary_text_color">@color/vector_text_black_color</color>-->
+</resources>

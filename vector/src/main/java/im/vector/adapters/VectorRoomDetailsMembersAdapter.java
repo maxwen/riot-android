@@ -891,7 +891,7 @@ public class VectorRoomDetailsMembersAdapter extends BaseExpandableListAdapter {
             });
         }
 
-        int backgroundColor = mContext.getResources().getColor(android.R.color.white);
+        int backgroundColor = mContext.getResources().getColor(R.color.room_background);
 
         // multi selections mode
         // do not display a checkbox for oneself
@@ -912,7 +912,7 @@ public class VectorRoomDetailsMembersAdapter extends BaseExpandableListAdapter {
                         viewHolder.mSwipeCellLayout.setBackgroundColor(mContext.getResources().getColor(R.color.vector_05_gray));
                     } else {
                         mSelectedUserIds.remove(participant.mUserId);
-                        viewHolder.mSwipeCellLayout.setBackgroundColor(mContext.getResources().getColor(android.R.color.white));
+                        viewHolder.mSwipeCellLayout.setBackgroundColor(mContext.getResources().getColor(R.color.room_background));
                     }
 
                     if (null != mOnParticipantsListener) {

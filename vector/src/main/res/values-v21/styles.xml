@@ -248,5 +248,4 @@
     <style name="VectorSearches.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="colorControlNormal">@color/vector_green_color</item>
     </style>
-
 </resources>

@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="74dp"
-    android:background="@android:color/white">
+    android:background="@color/room_background">
 
     <ImageView
         android:id="@+id/filtered_list_avatar"
@@ -11,7 +11,7 @@
         android:layout_height="40dp"
         android:layout_centerVertical="true"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/ic_material_add_circle" />
+        android:src="@drawable/ic_material_add_circle_text_color" />
 
     <!-- keep singleLine="true" because maxLines="1" truncation is not the expected one.-->
     <TextView

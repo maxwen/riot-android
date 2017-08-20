@@ -1565,7 +1565,7 @@ public class VectorRoomSettingsFragment extends PreferenceFragment implements Sh
             addAddressPreference.setTitle(R.string.room_settings_addresses_add_new_address);
             addAddressPreference.setDialogTitle(R.string.room_settings_addresses_add_new_address);
             addAddressPreference.setKey(ADD_ADDRESSES_PREFERENCE_KEY);
-            addAddressPreference.setIcon(R.drawable.ic_add_black);
+            addAddressPreference.setIcon(R.drawable.ic_add_text_color);
 
             addAddressPreference.setOnPreferenceChangeListener(
                     new Preference.OnPreferenceChangeListener() {
@@ -1734,13 +1734,13 @@ public class VectorRoomSettingsFragment extends PreferenceFragment implements Sh
                 VectorCustomActionEditTextPreference isEncryptedPreference = new VectorCustomActionEditTextPreference(getActivity());
                 isEncryptedPreference.setTitle(R.string.room_settings_addresses_e2e_disabled);
                 isEncryptedPreference.setKey(key);
-                isEncryptedPreference.setIcon(getResources().getDrawable(R.drawable.e2e_unencrypted));
+                isEncryptedPreference.setIcon(getResources().getDrawable(R.drawable.e2e_unencrypted_text_color));
                 mAdvandceSettingsCategory.addPreference(isEncryptedPreference);
             } else if (mSession.isCryptoEnabled()) {
                 final VectorSwitchPreference encryptSwitchPreference = new VectorSwitchPreference(getActivity());
                 encryptSwitchPreference.setTitle(R.string.room_settings_addresses_e2e_encryption_warning);
                 encryptSwitchPreference.setKey(key);
-                encryptSwitchPreference.setIcon(getResources().getDrawable(R.drawable.e2e_unencrypted));
+                encryptSwitchPreference.setIcon(getResources().getDrawable(R.drawable.e2e_unencrypted_text_color));
                 encryptSwitchPreference.setChecked(false);
                 mAdvandceSettingsCategory.addPreference(encryptSwitchPreference);
 

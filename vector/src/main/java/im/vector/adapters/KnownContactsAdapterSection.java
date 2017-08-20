@@ -16,6 +16,7 @@
 
 package im.vector.adapters;
 
+import android.content.Context;
 import android.text.TextUtils;
 
 import java.util.Comparator;
@@ -27,9 +28,9 @@ public class KnownContactsAdapterSection extends AdapterSection<ParticipantAdapt
     private boolean mIsLimited;
     private String mCustomHeaderExtra;
 
-    public KnownContactsAdapterSection(String title, int headerSubViewResId, int contentResId, int headerViewType,
+    public KnownContactsAdapterSection(Context context, String title, int headerSubViewResId, int contentResId, int headerViewType,
                                        int contentViewType, List<ParticipantAdapterItem> items, Comparator<ParticipantAdapterItem> comparator) {
-        super(title, headerSubViewResId, contentResId, headerViewType, contentViewType, items, comparator);
+        super(context, title, headerSubViewResId, contentResId, headerViewType, contentViewType, items, comparator);
     }
 
     /**

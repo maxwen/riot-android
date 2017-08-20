@@ -320,4 +320,5 @@
         <item name="colorControlNormal">@color/list_header_spinner</item>
     </style>
 
+    <style name="AppTheme.Dialog" parent="@style/Theme.AppCompat.Light.Dialog" />
 </resources>

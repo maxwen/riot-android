@@ -22,6 +22,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.support.v7.app.ActionBar;
@@ -35,8 +36,6 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import org.matrix.androidsdk.rest.model.Event;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -171,6 +170,7 @@ public class VectorBaseSearchActivity extends MXCActionBarActivity {
     private View customizeActionBar() {
         mActionBar.setDisplayShowCustomEnabled(true);
         mActionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME | ActionBar.DISPLAY_HOME_AS_UP);
+        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.room_background)));
 
         // add a custom action bar view containing an EditText to input the search text
         ActionBar.LayoutParams layout = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.MATCH_PARENT);

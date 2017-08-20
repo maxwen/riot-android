@@ -29,7 +29,6 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.Color;
-import android.icu.text.LocaleDisplayNames;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -410,7 +409,7 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
                         updateRoomHeaderAvatar();
                     } else if (Event.EVENT_TYPE_MESSAGE_ENCRYPTION.equals(eventType)) {
                         boolean canSendEncryptedEvent = mRoom.isEncrypted() && mSession.isCryptoEnabled();
-                        mE2eImageView.setImageResource(canSendEncryptedEvent ? R.drawable.e2e_verified : R.drawable.e2e_unencrypted);
+                        mE2eImageView.setImageResource(canSendEncryptedEvent ? R.drawable.e2e_verified : R.drawable.e2e_unencrypted_text_color);
                         mVectorMessageListFragment.setIsRoomEncrypted(mRoom.isEncrypted());
                     }
 
@@ -1088,7 +1087,7 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
             mVectorMessageListFragment.setIsRoomEncrypted(mRoom.isEncrypted());
 
             boolean canSendEncryptedEvent = mRoom.isEncrypted() && mSession.isCryptoEnabled();
-            mE2eImageView.setImageResource(canSendEncryptedEvent ? R.drawable.e2e_verified : R.drawable.e2e_unencrypted);
+            mE2eImageView.setImageResource(canSendEncryptedEvent ? R.drawable.e2e_verified : R.drawable.e2e_unencrypted_text_color);
             mVectorMessageListFragment.setIsRoomEncrypted(mRoom.isEncrypted());
         }
 

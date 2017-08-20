@@ -5,16 +5,6 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="@drawable/shadow_bottom"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="#e1e1e1"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="3dp"
-        android:background="@drawable/shadow_top"/>
+        android:layout_height="1dp"
+        android:background="@color/vector_dc_gray" />
 </LinearLayout>

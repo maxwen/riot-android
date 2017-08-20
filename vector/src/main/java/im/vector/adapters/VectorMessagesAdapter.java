@@ -1848,7 +1848,7 @@ public class VectorMessagesAdapter extends AbstractMessagesAdapter {
                 }
                 // not encrypted event
                 else if (!event.isEncrypted()) {
-                    e2eIconByEventId.put(event.eventId, R.drawable.e2e_unencrypted);
+                    e2eIconByEventId.put(event.eventId, R.drawable.e2e_unencrypted_text_color);
                 }
                 // in error cases, do not display
                 else if (null != event.getCryptoError()) {

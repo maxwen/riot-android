@@ -11,7 +11,7 @@
         android:layout_width="8dp"
         android:layout_height="match_parent"
         android:layout_marginRight="8dp"
-        android:background="@android:color/darker_gray" />
+        android:background="@color/unread_indicator_color" />
 
     <include
         android:id="@+id/room_avatar_layout"
@@ -111,7 +111,7 @@
             android:minWidth="25dp"
             android:paddingLeft="4dp"
             android:paddingRight="4dp"
-            android:textColor="@android:color/white"
+            android:textColor="@color/vector_text_black_color"
             android:textSize="12sp"
             tools:background="#AAff00ff"
             tools:text="3.6K" />
