@@ -314,7 +314,7 @@
                             android:layout_width="24dp"
                             android:layout_height="match_parent"
                             android:layout_centerInParent="true"
-                            android:src="@drawable/voice_call_start_green"/>
+                            android:src="@drawable/voice_call_start_accent"/>
                     </RelativeLayout>
 
                     <RelativeLayout

@@ -14,6 +14,8 @@
 
         <!-- status bar color -->
         <item name="android:colorPrimaryDark">@color/vector_statusbar_color</item>
+        <item name="android:colorAccent">@color/vector_green_color</item>
+        <item name="android:colorControlActivated">@color/vector_green_color</item>
 
         <!-- fonts -->
         <item name="android:typeface">sans</item>

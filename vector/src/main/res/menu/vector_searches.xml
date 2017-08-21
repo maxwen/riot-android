@@ -5,11 +5,11 @@
 
     <item android:id="@+id/ic_action_speak_to_search"
         android:title="Speak"
-        android:icon="@drawable/vector_micro_green"
+        android:icon="@drawable/vector_micro_accent"
         app:showAsAction="always" />
 
     <item android:id="@+id/ic_action_clear_search"
         android:title="Clear"
-        android:icon="@drawable/vector_clear_edittext_green"
+        android:icon="@drawable/vector_clear_edittext_accent"
         app:showAsAction="always" />
 </menu>

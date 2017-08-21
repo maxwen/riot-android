@@ -70,7 +70,7 @@
             android:id="@+id/lock_screen_sendbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/ic_material_send_green"
+            android:background="@drawable/ic_material_send_accent"
             android:textColor="@android:color/black" />
 
     </LinearLayout>

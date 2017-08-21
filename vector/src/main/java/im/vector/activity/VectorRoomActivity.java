@@ -689,8 +689,8 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
                     };
 
                     final Integer[] icons = new Integer[]{
-                            R.drawable.ic_material_file,  // R.string.option_send_files
-                            R.drawable.ic_material_camera, // R.string.option_take_photo
+                            R.drawable.ic_material_file_accent,  // R.string.option_send_files
+                            R.drawable.ic_material_camera_accent, // R.string.option_take_photo
                     };
 
 
@@ -1505,10 +1505,10 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
         // hide the header room
         enableActionBarHeader(HIDE_ACTION_BAR_HEADER);
 
-        final Integer[] lIcons = new Integer[]{R.drawable.voice_call_black, R.drawable.video_call_black};
+        final Integer[] lIcons = new Integer[]{R.drawable.voice_call_accent, R.drawable.video_call_accent};
         final Integer[] lTexts = new Integer[]{R.string.action_voice_call, R.string.action_video_call};
 
-        IconAndTextDialogFragment fragment = IconAndTextDialogFragment.newInstance(lIcons, lTexts);
+        IconAndTextDialogFragment fragment = IconAndTextDialogFragment.newInstance(lIcons, lTexts, null, getResources().getColor(R.color.vector_text_black_color));
         fragment.setOnClickListener(new IconAndTextDialogFragment.OnItemClickListener() {
             @Override
             public void onItemClick(IconAndTextDialogFragment dialogFragment, int position) {
@@ -2029,7 +2029,7 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
      */
     private void manageSendMoreButtons() {
         boolean hasText = (mEditText.getText().length() > 0);
-        mSendImageView.setImageResource(hasText ? R.drawable.ic_material_send_green : R.drawable.ic_material_file);
+        mSendImageView.setImageResource(hasText ? R.drawable.ic_material_send_accent : R.drawable.ic_material_file_accent);
     }
 
     /**
