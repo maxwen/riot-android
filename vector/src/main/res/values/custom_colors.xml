@@ -21,7 +21,7 @@
     <color name="drawer_background_color">#ffffff</color>
     <color name="drawer_icon_color">#FF4D4D4D</color>
     <color name="bottom_navigation_background">#ffffff</color>
-    <color name="filter_background">#ffffff</color>
+    <color name="header_footer_background">#FFF2F2F2</color>
     <color name="list_header_secondary_text_color">#4d3C3C3C</color>
     <color name="message_encryting">#dc000000</color>
     <color name="message_normal">#000000</color>

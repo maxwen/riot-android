@@ -869,8 +869,8 @@ public class VectorRoomActivity extends MXCActionBarActivity implements MatrixMe
         if ((!TextUtils.isEmpty(mEventId) || (null != sRoomPreviewData))) {
             if (!mIsUnreadPreviewMode) {
                 mNotificationsArea.setVisibility(View.GONE);
-                findViewById(R.id.bottom_separator).setVisibility(View.GONE);
-                findViewById(R.id.room_notification_separator).setVisibility(View.GONE);
+                //findViewById(R.id.bottom_separator).setVisibility(View.GONE);
+                //findViewById(R.id.room_notification_separator).setVisibility(View.GONE);
                 findViewById(R.id.room_notifications_area).setVisibility(View.GONE);
             }
 

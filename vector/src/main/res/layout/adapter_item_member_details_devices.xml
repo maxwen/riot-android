@@ -75,5 +75,5 @@
         android:layout_height="1dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:background="@color/vector_dc_gray" />
+        android:background="@color/vector_line_separator_gray_color" />
 </RelativeLayout>

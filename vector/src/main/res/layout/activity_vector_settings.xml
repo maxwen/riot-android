@@ -1,19 +1,20 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/vector_activity_background_color">
 
     <FrameLayout
+        android:id="@+id/vector_settings_page"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/room_background"
-        android:id="@+id/vector_settings_page" />
+        android:layout_height="match_parent"/>
 
     <FrameLayout
         android:id="@+id/vector_settings_spinner_views"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="gone"
-        android:background="@color/chat_encoding_background">
+        android:background="@color/chat_encoding_background"
+        android:visibility="gone">
+
         <ProgressBar
             android:id="@+id/vector_settings_spinner"
             android:layout_width="40dp"

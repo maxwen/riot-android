@@ -6,5 +6,5 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/vector_dc_gray" />
+        android:background="@color/vector_line_separator_gray_color" />
 </LinearLayout>

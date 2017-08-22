@@ -17,7 +17,7 @@
     <View
         android:id="@+id/messagesAdapter_message_header_separator"
         android:layout_width="match_parent"
-        android:background="#DDDDDD"
+        android:background="@color/vector_line_separator_gray_color"
         android:layout_height="1dp" />
 
     <View

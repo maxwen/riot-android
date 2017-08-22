@@ -48,9 +48,6 @@
 
     <color name="vector_text_gray_color">@color/custom_vector_text_gray_color</color>
 
-    <!-- tabbar underline -->
-    <color name="vector_dc_gray">@color/custom_vector_dc_gray</color>
-
     <!-- room members list -->
     <color name="vector_21_black">@color/custom_vector_21_black</color>
     <color name="vector_80_gray">@color/custom_vector_80_gray</color>
