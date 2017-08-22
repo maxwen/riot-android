@@ -1755,7 +1755,7 @@ public class VectorHomeActivity extends AppCompatActivity implements SearchView.
                         break;
                     }
 
-                    case R.id.sliding_copyright_terms: {
+                    /*case R.id.sliding_copyright_terms: {
                         VectorUtils.displayAppCopyright();
                         break;
                     }
@@ -1773,7 +1773,7 @@ public class VectorHomeActivity extends AppCompatActivity implements SearchView.
                     case R.id.sliding_menu_third_party_notices: {
                         VectorUtils.displayThirdPartyLicenses();
                         break;
-                    }
+                    }*/
                 }
 
                 VectorHomeActivity.this.mSlidingMenuIndex = -1;
@@ -1803,12 +1803,12 @@ public class VectorHomeActivity extends AppCompatActivity implements SearchView.
         }
 
         Menu menuNav = navigationView.getMenu();
-        MenuItem aboutMenuItem = menuNav.findItem(R.id.sliding_menu_version);
+        /*MenuItem aboutMenuItem = menuNav.findItem(R.id.sliding_menu_version);
 
         if (null != aboutMenuItem) {
             String version = this.getString(R.string.room_sliding_menu_version) + " " + VectorUtils.getApplicationVersion(this);
             aboutMenuItem.setTitle(version);
-        }
+        }*/
 
         // init the main menu
         TextView displayNameTextView = (TextView) navigationView.findViewById(R.id.home_menu_main_displayname);

@@ -23,7 +23,7 @@
             android:title="@string/action_sign_out"/>
     </group>
 
-    <group android:id="@+id/app_group">
+    <!--<group android:id="@+id/app_group">
         <item
             android:id="@+id/sliding_menu_version"
             android:title="@string/room_sliding_menu_version"/>
@@ -43,5 +43,5 @@
         <item
             android:id="@+id/sliding_menu_third_party_notices"
             android:title="@string/room_sliding_menu_third_party_notices"/>
-    </group>
+    </group>-->
 </menu>

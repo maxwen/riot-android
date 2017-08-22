@@ -3,9 +3,8 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/internal_container"
-    android:background="@android:color/white"
     android:layout_width="match_parent"
-    android:layout_height="72dp">
+    android:layout_height="72dp" >
 
     <!-- Avatar -->
     <RelativeLayout
@@ -51,12 +50,5 @@
             android:textColor="@color/vector_0_54_black_color"
             android:text="A date here" />
     </LinearLayout>
-
-    <View
-        android:id="@+id/receipts_separator"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_alignParentBottom="true"
-        android:background="@color/vector_line_separator_gray_color"/>
 
 </RelativeLayout>

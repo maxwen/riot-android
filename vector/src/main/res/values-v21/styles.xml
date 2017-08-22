@@ -22,6 +22,8 @@
 
         <!-- activities background -->
         <item name="android:windowBackground">@color/vector_activity_background_color</item>
+        <item name="alertDialogTheme">@style/AppTheme.DialogAlert</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog</item>
     </style>
 
     <style name="AppTheme.NoActionBar.Swipe" parent="@style/AppTheme.NoActionBar">
@@ -105,6 +107,8 @@
         <!-- switch color -->
         <item name="android:colorControlActivated">@color/vector_green_color</item>
         <item name="colorControlActivated">@color/vector_green_color</item>
+        <item name="alertDialogTheme">@style/AppTheme.DialogAlert</item>
+        <item name="dialogTheme">@style/AppTheme.Dialog</item>
 
     </style>
 
