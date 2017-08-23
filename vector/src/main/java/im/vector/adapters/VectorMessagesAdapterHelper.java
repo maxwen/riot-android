@@ -47,7 +47,6 @@ import org.matrix.androidsdk.rest.model.RoomMember;
 import org.matrix.androidsdk.util.EventDisplay;
 import org.matrix.androidsdk.util.JsonUtils;
 import org.matrix.androidsdk.util.Log;
-import org.matrix.androidsdk.view.ConsoleHtmlTagHandler;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -60,6 +59,7 @@ import im.vector.R;
 import im.vector.listeners.IMessagesAdapterActionsListener;
 import im.vector.util.MatrixLinkMovementMethod;
 import im.vector.util.MatrixURLSpan;
+import im.vector.util.MyConsoleHtmlTagHandler;
 import im.vector.util.VectorUtils;
 
 /**
@@ -556,7 +556,7 @@ public class VectorMessagesAdapterHelper {
             }
         }
 
-        final ConsoleHtmlTagHandler htmlTagHandler = new ConsoleHtmlTagHandler();
+        final MyConsoleHtmlTagHandler htmlTagHandler = new MyConsoleHtmlTagHandler();
         htmlTagHandler.mContext = mContext;
 
         CharSequence sequence;
