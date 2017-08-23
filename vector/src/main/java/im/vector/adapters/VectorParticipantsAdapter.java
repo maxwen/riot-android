@@ -839,9 +839,9 @@ public class VectorParticipantsAdapter extends BaseExpandableListAdapter {
 
         if (groupPosition != mKnownContactsSectionPosition || mParticipantsListsList.get(groupPosition).size() > 0) {
             if (isExpanded) {
-                imageView.setImageResource(R.drawable.ic_material_expand_less_black);
+                imageView.setImageResource(R.drawable.ic_material_expand_less_text_color);
             } else {
-                imageView.setImageResource(R.drawable.ic_material_expand_more_black);
+                imageView.setImageResource(R.drawable.ic_material_expand_more_text_color);
             }
 
             boolean groupShouldBeExpanded = isGroupExpanded(groupPosition);

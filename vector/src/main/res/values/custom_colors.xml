@@ -27,6 +27,8 @@
     <color name="message_normal">#000000</color>
     <color name="message_sending">#8e000000</color>
     <color name="unread_indicator_color">@color/direct_chat_indicator</color>
+    <color name="search_background">@color/vector_tabbar_background_color</color>
+    <color name="settings_background">@color/vector_activity_background_color</color>
 
     <!--<color name="background_light">@color/material_grey_800</color>
     <color name="background_dark">@color/material_grey_900</color>

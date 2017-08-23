@@ -619,9 +619,9 @@ public class VectorRoomSummaryAdapter extends BaseExpandableListAdapter {
             imageView.setVisibility(View.GONE);
         } else {
             if (isExpanded) {
-                imageView.setImageResource(R.drawable.ic_material_expand_less_black);
+                imageView.setImageResource(R.drawable.ic_material_expand_less_text_color);
             } else {
-                imageView.setImageResource(R.drawable.ic_material_expand_more_black);
+                imageView.setImageResource(R.drawable.ic_material_expand_more_text_color);
             }
         }
         return convertView;

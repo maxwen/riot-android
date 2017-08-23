@@ -17,9 +17,6 @@
 package im.vector.adapters;
 
 import android.content.Context;
-
-import org.matrix.androidsdk.util.Log;
-
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +27,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.matrix.androidsdk.crypto.data.MXDeviceInfo;
+import org.matrix.androidsdk.util.Log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -161,9 +159,9 @@ public class VectorUnknownDevicesAdapter extends BaseExpandableListAdapter {
         ImageView imageView = (ImageView) convertView.findViewById(R.id.heading_image);
 
         if (isExpanded) {
-            imageView.setImageResource(R.drawable.ic_material_expand_less_black);
+            imageView.setImageResource(R.drawable.ic_material_expand_less_text_color);
         } else {
-            imageView.setImageResource(R.drawable.ic_material_expand_more_black);
+            imageView.setImageResource(R.drawable.ic_material_expand_more_text_color);
         }
         return convertView;
     }

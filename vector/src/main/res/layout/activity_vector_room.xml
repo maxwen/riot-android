@@ -184,11 +184,11 @@
             android:indeterminate="true"
             android:paddingRight="2dp"/>
 
-        <View
+        <!--<View
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@+id/jump_to_first_unread_label"
-            android:background="@color/vector_line_separator_gray_color"/>
+            android:background="@color/vector_line_separator_gray_color"/>-->
 
     </RelativeLayout>
 

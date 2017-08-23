@@ -170,7 +170,7 @@ public class VectorBaseSearchActivity extends MXCActionBarActivity {
     private View customizeActionBar() {
         mActionBar.setDisplayShowCustomEnabled(true);
         mActionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_SHOW_HOME | ActionBar.DISPLAY_HOME_AS_UP);
-        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.room_background)));
+        mActionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.search_background)));
 
         // add a custom action bar view containing an EditText to input the search text
         ActionBar.LayoutParams layout = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.MATCH_PARENT);

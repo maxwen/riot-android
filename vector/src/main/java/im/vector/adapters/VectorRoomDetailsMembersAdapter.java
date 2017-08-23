@@ -653,7 +653,7 @@ public class VectorRoomDetailsMembersAdapter extends BaseExpandableListAdapter {
         viewHolder.mTitleTxtView.setText(titleValue);
 
         // set the expander logo
-        int expanderLogoResId = aIsExpanded?R.drawable.ic_material_expand_more_black:R.drawable.ic_material_expand_less_black;
+        int expanderLogoResId = aIsExpanded?R.drawable.ic_material_expand_more_text_color:R.drawable.ic_material_expand_less_text_color;
         viewHolder.mExpanderLogoImageView.setImageResource(expanderLogoResId);
 
         return aConvertView;
